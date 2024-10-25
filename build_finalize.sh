@@ -1,0 +1,1 @@
+sudo chown root:root -R /opt/ogon
