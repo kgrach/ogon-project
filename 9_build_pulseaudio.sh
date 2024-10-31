@@ -1,5 +1,6 @@
 git clone https://github.com/kgrach/ogon-pulseaudio.git
 cd ./ogon-pulseaudio
-./install_depends_ubuntu22.sh
+git checkout RedOS8
+./install_depends.sh
 ./build.sh
 cd ..
