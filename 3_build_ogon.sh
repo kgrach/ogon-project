@@ -5,8 +5,7 @@ echo ============================ INSTALL OGON =================================
 echo ==============================================================================
 echo ""
 
-sudo dnf install -y protobuf-devel.x86_64 protobuf-compiler.x86_64 protobuf-c-compiler.x86_64 boost-devel.x86_64 automake.noarch ca-certificates.noarch \
-		 protobuf-c-devel.x86_64 systemd-pam.x86_64 pam-devel.x86_64 pam-libs.x86_64 dbus-devel.x86_64
+sudo dnf install -y protobuf-devel.x86_64 protobuf-compiler.x86_64 protobuf-c-compiler.x86_64 boost-devel.x86_64 automake.noarch ca-certificates.noarch protobuf-c-devel.x86_64 systemd-pam.x86_64 pam-devel.x86_64 pam-libs.x86_64 dbus-devel.x86_64
 
 git clone https://gl.rncb.ru/cpp_developers/ResearchAndDevelopment/ogon_rncb/ogon.git -b RedOS
 cd ./ogon
