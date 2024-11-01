@@ -1,0 +1,12 @@
+./1_prepare_build.sh
+./2_build_freerdp.sh
+./3_build_ogon.sh
+./4_build_apps.sh
+./5_build_platform_qt.sh
+./6_build_greeter_qt.sh
+./7_build_libxtrans.sh
+./7_build_libxfont.sh
+./7_build_xserver.sh
+./8_build_channels.sh
+./9_build_pulseaudio.sh
+./finalize.sh
