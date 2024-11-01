@@ -5,7 +5,7 @@ echo =========================== INSTALL PLATFORM-QT ===========================
 echo ==============================================================================
 echo ""
 
-sudo dnf install qtchooser.x86_64 libxkbcommon-devel.x86_64 fontconfig-devel.x86_64 mtdev-devel.x86_64 mesa-libEGL-devel.x86_64 qt5-qtbase-private-devel.x86_64
+sudo dnf install -y qtchooser.x86_64 libxkbcommon-devel.x86_64 fontconfig-devel.x86_64 mtdev-devel.x86_64 mesa-libEGL-devel.x86_64 qt5-qtbase-private-devel.x86_64
 
 git clone https://gl.rncb.ru/cpp_developers/ResearchAndDevelopment/ogon_rncb/ogon-platform-qt.git -b RedOS
 cd ./ogon-platform-qt 

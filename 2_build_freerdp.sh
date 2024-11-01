@@ -5,7 +5,7 @@ echo ============================ INSTALL FREERDP ==============================
 echo ==============================================================================
 echo ""
 
-sudo dnf install openssl-devel.x86_64 libXext-devel.x86_64 libXcursor-devel.x86_64 libXinerama-devel.x86_64 libXext-devel.x86_64 libXdamage-devel.x86_64 libXv-devel.x86_64 \
+sudo dnf install -y openssl-devel.x86_64 libXext-devel.x86_64 libXcursor-devel.x86_64 libXinerama-devel.x86_64 libXext-devel.x86_64 libXdamage-devel.x86_64 libXv-devel.x86_64 \
 		libxkbfile-devel.x86_64 libxml2.x86_64 libxml2-devel.x86_64 libXrandr-devel.x86_64 cmake.x86_64 gstreamer1-devel.x86_64 \ 
 		gstreamer1-plugins-base-devel.x86_64 libXi-devel.x86_64
 
