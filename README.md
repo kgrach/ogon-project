@@ -1,5 +1,13 @@
 # ogon_project
+Проверить название удаленного репозитория подпроекта
 
+    cd ../ogon
+    git remote -v
+
+В подпроектах пушим в удаленный репозиторий rncb
+
+    cd ../ogon
+    git push -u rncb RedOS
 
 
 ## Настроить proxy 
