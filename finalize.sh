@@ -19,7 +19,7 @@ echo ""
 #environment_add_string=WTSAPI_LIBRARY:/opt/ogon/lib64/ogon1/libogon-otsapi.so;OGON_X11_DESKTOP:mate
 #или для конкретного пользователя своя графическая оболочка
 #environment_add_string=OGON_X11_DESKTOP:mate
-sed -i.backup 's%environment_add_string=WTSAPI_LIBRARY:/opt/ogon/lib64/ogon1/libogon-otsapi.so%environment_add_string=WTSAPI_LIBRARY:/opt/ogon/lib64/ogon1/libogon-otsapi.so;OGON_X11_DESKTOP:mate%' /opt/ogon/etc/ogon/config.ini
+#sed -i.backup 's%environment_add_string=WTSAPI_LIBRARY:/opt/ogon/lib64/ogon1/libogon-otsapi.so%environment_add_string=WTSAPI_LIBRARY:/opt/ogon/lib64/ogon1/libogon-otsapi.so;OGON_X11_DESKTOP:mate%' /opt/ogon/etc/ogon/config.ini
 
 echo ""
 echo ""

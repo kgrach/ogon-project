@@ -24,3 +24,5 @@ sudo systemctl daemon-reload
 
 cd ../..
 mkdir -p /opt/ogon/var/run
+
+sed -i.backup 's%environment_add_string=WTSAPI_LIBRARY:/opt/ogon/lib64/ogon1/libogon-otsapi.so%environment_add_string=WTSAPI_LIBRARY:/opt/ogon/lib64/ogon1/libogon-otsapi.so;OGON_X11_DESKTOP:mate%' /opt/ogon/etc/ogon/config.ini

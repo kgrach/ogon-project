@@ -1,3 +1,5 @@
+https://github.com/ogon-project/ogon/blob/master/doc/build-debian-ubuntu.md
+
 # ogon_project
 Проверить название удаленного репозитория подпроекта
 
