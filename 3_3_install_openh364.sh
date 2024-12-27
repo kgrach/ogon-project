@@ -1,6 +1,6 @@
 sudo dnf install -y curl unzip
 
-cd ./ogon/misc
+cd ./ogon/build
 
 ./misc/ogon-get-openh264-codec
 
