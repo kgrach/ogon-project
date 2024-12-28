@@ -1,0 +1,1 @@
+git clone https://github.com/kgrach/ogon-greeter-qt.git
