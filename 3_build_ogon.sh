@@ -7,7 +7,7 @@ echo ""
 
 sudo dnf install -y protobuf-devel.x86_64 protobuf-compiler.x86_64 protobuf-c-compiler.x86_64 boost-devel.x86_64 automake.noarch ca-certificates.noarch protobuf-c-devel.x86_64 systemd-pam.x86_64 pam-devel.x86_64 pam-libs.x86_64 dbus-devel.x86_64
 
-git clone https://gl.rncb.ru/cpp_developers/ResearchAndDevelopment/ogon_rncb/ogon.git -b RedOS
+git clone https://github.com/kgrach/ogon.git -b RedOS
 cd ./ogon
 mkdir -p build && cd build
 cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/opt/ogon -DCMAKE_PREFIX_PATH=/opt/ogon/ -DWITH_OPENH264=on ..

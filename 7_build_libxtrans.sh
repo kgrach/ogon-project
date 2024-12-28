@@ -11,7 +11,7 @@ sudo dnf install -y xmlto.x86_64 fop.noarch libtool.x86_64 pixman-devel.x86_64 p
 		 libXScrnSaver.x86_64 libXScrnSaver-devel.x86_64 libXxf86misc.x86_64 libXxf86misc-devel.x86_64
 
 
-git clone https://gl.rncb.ru/cpp_developers/ResearchAndDevelopment/ogon_rncb/libxtrans.git -b RedOS
+git clone https://github.com/kgrach/libxtrans.git -b RedOS
 cd libxtrans && mkdir -p output && cd output
 ../autogen.sh --prefix=/opt/ogon
 make && sudo make install

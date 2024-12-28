@@ -14,7 +14,7 @@ echo ""
 
 sudo dnf install -y qtchooser.x86_64 libxkbcommon-devel.x86_64 fontconfig-devel.x86_64 mtdev-devel.x86_64 mesa-libEGL-devel.x86_64 qt5-qtbase-private-devel.x86_64
 
-git clone https://gl.rncb.ru/cpp_developers/ResearchAndDevelopment/ogon_rncb/ogon-platform-qt.git -b RedOS
+git clone https://github.com/kgrach/ogon-platform-qt.git -b RedOS
 cd ./ogon-platform-qt 
 
 #echo ===== PLEASE CHOOSE qt5 defaut
@@ -22,9 +22,9 @@ cd ./ogon-platform-qt
 
 #export CPATH=$CPATH:/usr/include/qt5/QtGui/5.15.14/QtGui/:/usr/include/qt5/
 
-/usr/lib/qtchooser/qtchooser -run-tool=qmake ADDITIONAL_RPATHS=/opt/ogon/lib/:/opt/ogon/lib/x86_64-linux-gnu/pkgconfig/:/opt/ogon/lib64/:/usr/include/qt5/ PREFIX=/opt/ogon
+/usr/lib/qtchooser/qtchooser -run-tool=qmake ADDITIONAL_RPATHS=/opt/ogon/lib/:/opt/ogon/lib/pkgconfig/:/opt/ogon/lib64/pkgconfig/:/opt/ogon/lib64/:/usr/include/qt5/ PREFIX=/opt/ogon
 
-export PKG_CONFIG_PATH=/opt/ogon/lib/pkgconfig/:/opt/ogon/lib/x86_64-linux-gnu/pkgconfig/:/opt/ogon/lib64/pkgconfig
+export PKG_CONFIG_PATH=/opt/ogon/lib/pkgconfig/:/opt/ogon/lib64/pkgconfig
 
 make && make install
 cd ../
