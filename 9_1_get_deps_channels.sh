@@ -1,1 +1,1 @@
-sudo dnf install -y fuse-devel
+sudo dnf install -y fuse-devel pcsc-lite-devel
