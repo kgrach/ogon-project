@@ -5,7 +5,7 @@ echo ============================ INSTALL OGON-APPS ============================
 echo ==============================================================================
 echo ""
 
-sudo dnf install -y qt5-devel.noarch qt5-qtbase-devel.x86_64 qt5-qttools-devel.x86_64
+sudo dnf install -y qt5-devel qt5-qtbase-devel qt5-qttools-devel
 
 git clone https://github.com/kgrach/ogon-apps.git -b RedOS
 cd ./ogon-apps

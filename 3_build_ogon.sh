@@ -4,8 +4,9 @@ echo ===========================================================================
 echo ============================ INSTALL OGON ====================================
 echo ==============================================================================
 echo ""
-
-sudo dnf install -y protobuf-devel.x86_64 protobuf-compiler.x86_64 protobuf-c-compiler.x86_64 boost-devel.x86_64 automake.noarch ca-certificates.noarch protobuf-c-devel.x86_64 systemd-pam.x86_64 pam-devel.x86_64 pam-libs.x86_64 dbus-devel.x86_64
+# Эти пакеты отсутствуют в репозитории redos7
+#pam-libs 
+sudo dnf install -y protobuf-devel protobuf-compiler protobuf-c-compiler boost-devel automake ca-certificates protobuf-c-devel systemd-pam pam-devel dbus-devel
 
 git clone https://github.com/kgrach/ogon.git -b RedOS
 cd ./ogon
