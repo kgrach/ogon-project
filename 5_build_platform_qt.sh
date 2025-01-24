@@ -29,9 +29,12 @@ cd ./ogon-platform-qt
 
 export PKG_CONFIG_PATH=/opt/ogon/lib/pkgconfig/:/opt/ogon/lib64/pkgconfig
 
-/usr/bin/qmake-qt5 && make && make install
+/usr/bin/qmake-qt5 && make 
+sudo make install
 cd ../
 
+#Получил после сборки вот такую ошибку. Пока не понятно на что влияет
+#ln: не удалось создать символьную ссылку '/usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libogon.so': File exists
 
 sudo ln -s /opt/ogon/lib/qt5/plugins/platforms/libogon.so /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libogon.so
 sudo ln -s /opt/ogon/lib64/libogon-backend.so.1 /usr/lib64/libogon-backend.so.1
