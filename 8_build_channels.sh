@@ -11,6 +11,6 @@ git clone https://github.com/kgrach/ogon-channels.git -b RedOS8
 cd ./ogon-channels
 mkdir -p build && cd build
 cmake -DCMAKE_PREFIX_PATH=/opt/ogon -DCMAKE_INSTALL_PREFIX=/opt/ogon ..
-make -j $(grep -c '^processor' /proc/cpuinfo) install
+sudo make -j $(grep -c '^processor' /proc/cpuinfo) install
 cd ../../
 
