@@ -1,5 +1,0 @@
-20241214: После пересборки библиотеки /opt/ogon/lib64/ogon1/libogon-otsapi.so перестал собираться проект ogon-platform-qt (5_build_platform_qt.sh). Нужно разбираться... Возможно для быстрого решения потребуется сначала установить ogon-project в старой версии (без thrift c C++), затем установить thrift c C++ и пересобрать билиотеку /opt/ogon/lib64/ogon1/libogon-otsapi.so. Старая версия - это без пакетов thrift.x86_64 thrift-devel.x86_64 в скрипте 1_prepare_build.sh
-
-20241213: После установки Thrift для С++, чтобы заработал Ogon-channels с пробросом смарткарты, потребуется пересобрать библиотеку /opt/ogon/lib64/ogon1/libogon-otsapi.so которая собирается из проекта ogon (3_build_ogon.sh).
-
-
