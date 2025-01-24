@@ -15,6 +15,6 @@ export PKG_CONFIG_PATH=/opt/ogon/lib/pkgconfig/:/opt/ogon/share/pkgconfig:/opt/o
 
 make  -j $(grep -c '^processor' /proc/cpuinfo)
 cd hw/xogon/
-make install
+sudo make install
 cd ../../../
 

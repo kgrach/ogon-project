@@ -5,7 +5,7 @@ echo ========================== INSTALL OGON-CHANNELS ==========================
 echo ==============================================================================
 echo ""
 
-sudo dnf install -y fuse-devel.x86_64
+sudo dnf install -y fuse-devel pcsc-lite-devel
 
 git clone https://github.com/kgrach/ogon-channels.git -b RedOS8
 cd ./ogon-channels
