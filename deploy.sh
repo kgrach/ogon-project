@@ -19,6 +19,8 @@ sudo cp /opt/ogon/misc/pam/* /etc/pam.d/
 
 /opt/ogon/sbin/ogon-get-openh264-codec
 
+sudo rm /opt/ogon/var/run/*
+
 sudo chown root:root -R /opt/ogon
 
 sudo systemctl enable ogon-rdp-server
