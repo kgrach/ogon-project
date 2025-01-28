@@ -1,4 +1,4 @@
-sudo dnf install thrift pcsc-lite
+sudo dnf install -y thrift pcsc-lite
 #sudo rm -rf /opt/ogon
 sudo mkdir -p /opt/ogon/
 sudo chown ${USER}:${USER} -R /opt/ogon
