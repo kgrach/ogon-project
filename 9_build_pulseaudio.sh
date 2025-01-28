@@ -5,7 +5,7 @@ echo ====================== INSTALL AUDIO with PULSAUDIO =======================
 echo ==============================================================================
 echo ""
 
-sudo dnf install -y libSM-devel libXtst-devel intltool libtool-ltdl-devel libcap-devel libSM-devel cjson-devel json-c-devel libsndfile-devel
+sudo dnf install -y libSM-devel libXtst-devel intltool libtool-ltdl-devel libcap-devel cjson-devel json-c-devel libsndfile-devel
 
 git clone https://github.com/kgrach/ogon-pulseaudio.git -b RedOS
 cd ./ogon-pulseaudio

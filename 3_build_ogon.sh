@@ -6,7 +6,8 @@ echo ===========================================================================
 echo ""
 # Эти пакеты отсутствуют в репозитории redos7
 #pam-libs 
-sudo dnf install -y protobuf-devel protobuf-compiler protobuf-c-compiler boost-devel automake ca-certificates protobuf-c-devel systemd-pam pam-devel dbus-devel
+sudo dnf install -y protobuf-devel protobuf-compiler protobuf-c-compiler boost-devel automake ca-certificates protobuf-c-devel systemd-pam pam-devel dbus-devel \
+                    thrift thrift-devel
 
 git clone https://github.com/kgrach/ogon.git -b RedOS
 cd ./ogon
