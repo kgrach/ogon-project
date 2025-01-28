@@ -24,6 +24,10 @@ sudo cp misc/ogon-rdp-server.service /etc/systemd/system
 sudo cp misc/ogon-session-manager.service /etc/systemd/system
 sudo systemctl daemon-reload
 
+sudo cp misc/ogon-rdp-server.service /opt/ogon/misc
+sudo cp misc/ogon-session-manager.service /opt/ogon/misc
+sudo cp ../misc/pam.d/ogon.suse /opt/ogon/misc
+
 cd ../..
 mkdir -p /opt/ogon/var/run
 

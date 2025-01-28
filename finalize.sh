@@ -9,6 +9,9 @@ sudo cp certs/ssl-cert-snakeoil.key /etc/ssl/private/
 sudo cp certs/ssl-cert-snakeoil.pem /etc/ssl/certs/
 sudo cp pam/* /etc/pam.d/
 
+sudo cp -r ./pam /opt/ogon/misc
+sudo cp -r ./certs /opt/ogon/misc
+
 echo ""
 echo ""
 echo ==============================================================================

@@ -14,4 +14,8 @@ echo ""
 sudo dnf -y groupinstall 'Development Tools'
 
 sudo mkdir -p /opt/ogon/lib
+
+#/opt/ogon/misc используется при разворачивании ogon 
+sudo mkdir -p /opt/ogon/misc
+
 sudo chown ${USER}:${USER} -R /opt/ogon
